@@ -21,7 +21,7 @@ using namespace std;
     int duzina_b=niz_b.size()-1;
     int duzina_z=niz_z.size()-1;
 
-    void unos(int x)
+    void unos()
     {
     unos2:cout<<"Unesite zeljenu duzinu passworda: ";
     cin>>duzina;
@@ -157,8 +157,7 @@ int main()
    cout<<"==============================================================================="<<endl;
    cout<<endl;
    Sifra Pass;
-   int x1;
-   Pass.unos(x1);
+   Pass.unos();
 
 
 return 0;
